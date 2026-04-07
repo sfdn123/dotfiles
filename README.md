@@ -2,15 +2,9 @@
 
 ## SetUp
 
-- MacOS
+- MacOS, Ubuntu
 ```bash
 brew install chezmoi
-```
-
-- Ubuntu/Debian
-
-```bash
-sudo apt update && sudo apt install -y chezmoi
 ```
 
 ## 新しい環境への導入
@@ -56,18 +50,7 @@ chezmoi re-add <path>
 chezmoi update
 ```
 
-## 管理方針
-
-- 基本はターミナル系の設定だけを管理する:
-  - `zsh`
-  - `nvim`
-  - `zellij`
-  - `ghostty`
-  - `Brewfile`
-
-`.tmpl` はテンプレートファイルで、`chezmoi` は中の `{{ ... }}` を評価してから使う。
-
-## このリポジトリだけ、個人アカウントで管理したい場合
+# このリポジトリだけ、個人アカウントで管理したい場合
 
 ```bash
 # アカウント名をこのリポジトリだけに追加
