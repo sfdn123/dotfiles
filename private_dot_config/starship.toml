@@ -13,7 +13,7 @@ $aws\
 ${custom.gcloud}\
 $fill\
 $cmd_duration\
-$time\
+$hostname\
 
 $character\
 """
@@ -89,6 +89,12 @@ format = "[ $duration]($style)"
 disabled = false
 time_format = "%R"
 format = '[[  $time](fg:#75715E)]($style)'
+
+[hostname]
+ssh_only = false
+trim_at = "."
+format = "[ 󰌢 $hostname]($style)"
+style = "fg:#75715E"
 
 # ----------------------------------------------------
 # prompt module
