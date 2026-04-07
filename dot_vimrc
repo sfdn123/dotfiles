@@ -1,0 +1,15 @@
+" Neovim 側の keymaps を引き継ぐ
+if filereadable(expand("~/.config/nvim/keymaps.vim"))
+  source ~/.config/nvim/keymaps.vim
+endif
+
+" Vim 側の配色（monokai classic）
+set background=dark
+set runtimepath+=~/.vim
+set clipboard=unnamedplus
+syntax on
+try
+  colorscheme monokai
+catch /^Vim\%((\a\+)\)\=:E185/
+  " monokai が未インストールなら何もしない
+endtry

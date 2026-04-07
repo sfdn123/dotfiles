@@ -1,0 +1,7 @@
+zsh_config_root="${XDG_CONFIG_HOME:-$HOME/.config}/zsh"
+
+for zsh_config in "$zsh_config_root"/conf.d/*.zsh(N); do
+    source "$zsh_config"
+done
+
+unset zsh_config zsh_config_root

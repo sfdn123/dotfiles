@@ -1,0 +1,29 @@
+# theme
+theme = "Monokai Classic"
+
+cursor-style = "bar"
+# 太さ（px か %）
+adjust-cursor-thickness = 4 
+# カーソル色
+cursor-color = "#F92672"
+
+font-family = "Menlo"
+font-family = "UDEV Gothic NF"
+font-family = "Apple Color Emoji"
+
+font-family-bold = "Menlo"
+font-family-bold = "UDEV Gothic NF"
+font-family-bold = "Apple Color Emoji"
+
+font-family-bold-italic = "Menlo"
+font-family-bold-italic = "UDEV Gothic NF"
+font-family-bold-italic = "Apple Color Emoji"
+
+# cmd enterでの大画面を無効化
+keybind = super+enter=unbind
+
+font-size = 12
+font-feature = "+calt,+liga,-dlig"
+background-opacity = 0.98
+
+shell-integration-features = ssh-terminfo,ssh-env

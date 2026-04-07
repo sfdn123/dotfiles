@@ -1,0 +1,5 @@
+_dotfiles_report_missing
+
+unset -f _dotfiles_mark_missing
+unset -f _dotfiles_report_missing
+unset _dotfiles_missing_tools
