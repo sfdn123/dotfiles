@@ -22,7 +22,7 @@ font-family-bold-italic = "Apple Color Emoji"
 # cmd enterでの大画面を無効化
 keybind = super+enter=unbind
 
-font-size = 13
+font-size = 14
 font-feature = "+calt,+liga,-dlig"
 background-opacity = 0.98
 
