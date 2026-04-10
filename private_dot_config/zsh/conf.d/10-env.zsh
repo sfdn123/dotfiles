@@ -1,6 +1,8 @@
 export LANG="${LANG:-en_US.UTF-8}"
 export EDITOR="nvim"
 export VISUAL="nvim"
+
+export COLORTERM=truecolor
 WORDCHARS=''
 
 # Initialize Homebrew from common install locations when available.
