@@ -3,6 +3,7 @@ export EDITOR="nvim"
 export VISUAL="nvim"
 
 export COLORTERM=truecolor
+export PATH="$HOME/.local/bin:$PATH"
 WORDCHARS=''
 
 # Initialize Homebrew from common install locations when available.
