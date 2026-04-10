@@ -19,3 +19,6 @@ do
 done
 
 unset brew_bin
+
+# Rust / Cargo
+[ -f "$HOME/.cargo/env" ] && . "$HOME/.cargo/env"
