@@ -7,3 +7,5 @@ brew "sheldon"
 brew "starship"
 brew "yazi"
 brew "zoxide"
+
+cask "font-udev-gothic-nf"
