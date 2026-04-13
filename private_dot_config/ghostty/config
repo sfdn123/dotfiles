@@ -17,27 +17,24 @@ palette = 14=#42b3c2
 palette = 15=#d7dae0
 background = #23272e
 foreground = #abb2bf
-cursor-color = #abb2bf
+cursor-color = #e05561
 cursor-text = #23272e
 selection-background = #323844
 selection-foreground = #abb2bf
 
 # cursor
 cursor-style = "bar"
-adjust-cursor-thickness = 4
+adjust-cursor-thickness = 3
 
 # font
-font-family = "PlemolJP Console"
 font-family = "Menlo"
 font-family = "UDEV Gothic NF"
 font-family = "Apple Color Emoji"
 
-font-family-bold = "PlemolJP Console"
 font-family-bold = "Menlo"
 font-family-bold = "UDEV Gothic NF"
 font-family-bold = "Apple Color Emoji"
 
-font-family-bold-italic = "PlemolJP Console"
 font-family-bold-italic = "Menlo"
 font-family-bold-italic = "UDEV Gothic NF"
 font-family-bold-italic = "Apple Color Emoji"
