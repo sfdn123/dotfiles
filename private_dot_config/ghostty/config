@@ -27,16 +27,19 @@ cursor-style = "bar"
 adjust-cursor-thickness = 4
 
 # font
-font-family = "UDEV Gothic NF"
+font-family = "PlemolJP Console"
 font-family = "Menlo"
+font-family = "UDEV Gothic NF"
 font-family = "Apple Color Emoji"
 
-font-family-bold = "UDEV Gothic NF"
+font-family-bold = "PlemolJP Console"
 font-family-bold = "Menlo"
+font-family-bold = "UDEV Gothic NF"
 font-family-bold = "Apple Color Emoji"
 
-font-family-bold-italic = "UDEV Gothic NF"
+font-family-bold-italic = "PlemolJP Console"
 font-family-bold-italic = "Menlo"
+font-family-bold-italic = "UDEV Gothic NF"
 font-family-bold-italic = "Apple Color Emoji"
 
 font-size = 13
