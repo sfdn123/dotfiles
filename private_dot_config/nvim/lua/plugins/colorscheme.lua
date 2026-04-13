@@ -1,22 +1,22 @@
 -- ~/.config/nvim/lua/plugins/colorscheme.lua
 return {
   {
-    "loctvl842/monokai-pro.nvim",
+    "navarasu/onedark.nvim",
     lazy = false,
     priority = 1000,
     opts = {
-      filter = "classic",
+      style = "darker",
     },
     config = function(_, opts)
-      require("monokai-pro").setup(opts)
-      vim.cmd.colorscheme("monokai-pro")
+      require("onedark").setup(opts)
+      require("onedark").load()
     end,
   },
 
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "monokai-pro",
+      colorscheme = "onedark",
     },
   },
 }
