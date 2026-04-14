@@ -1,5 +1,5 @@
 #----------------------------------------------------------
-#--  One Dark Darker
+#--  OneDark-Pro Night Flat
 #----------------------------------------------------------
 
 [mgr]
@@ -24,9 +24,9 @@ marker_marked = { fg = "#c162de", bg = "#c162de" }
 marker_selected = { fg = "#e05561", bg = "#e05561" }
 
 # Count
-count_copied = { fg = "#23272e", bg = "#8cc265" }
-count_cut = { fg = "#23272e", bg = "#e05561" }
-count_selected = { fg = "#23272e", bg = "#d18f52" }
+count_copied = { fg = "#16191d", bg = "#8cc265" }
+count_cut = { fg = "#16191d", bg = "#e05561" }
+count_selected = { fg = "#16191d", bg = "#d18f52" }
 
 # Border
 border_symbol = "│"
@@ -34,8 +34,8 @@ border_style = { fg = "#3f4451" }
 
 # Tabs
 [tabs]
-active = { fg = "#23272e", bg = "#d18f52", bold = true }
-inactive = { fg = "#d18f52", bg = "#23272e" }
+active = { fg = "#16191d", bg = "#d18f52", bold = true }
+inactive = { fg = "#d18f52", bg = "#16191d" }
 
 # Separator
 sep_inner = { open = "", close = "" }
@@ -44,11 +44,11 @@ sep_outer = { open = "", close = "" }
 # Modes
 [mode]
 # Normal mode
-normal_main = { fg = "#23272e", bg = "#d18f52", bold = true }
+normal_main = { fg = "#16191d", bg = "#d18f52", bold = true }
 normal_alt = { fg = "#d18f52", bg = "#3f4451" }
 
 # Select mode
-select_main = { fg = "#23272e", bg = "#c162de", bold = true }
+select_main = { fg = "#16191d", bg = "#c162de", bold = true }
 select_alt = { fg = "#c162de", bg = "#3f4451" }
 
 # Unset mode
@@ -70,13 +70,13 @@ perm_exec = { fg = "#42b3c2" }
 
 # Progress
 progress_label = { bold = true }
-progress_normal = { fg = "#42b3c2", bg = "#23272e" }
-progress_error = { fg = "#e05561", bg = "#23272e" }
+progress_normal = { fg = "#42b3c2", bg = "#16191d" }
+progress_error = { fg = "#e05561", bg = "#16191d" }
 
 # Which
 [which]
 cols = 3
-mask = { bg = "#23272e" }
+mask = { bg = "#16191d" }
 cand = { fg = "lightcyan" }
 rest = { fg = "#3f4451" }
 desc = { fg = "lightmagenta" }
@@ -149,7 +149,7 @@ on = { fg = "#42b3c2" }
 run = { fg = "#c162de" }
 desc = {}
 hovered = { reversed = true, bold = true }
-footer = { fg = "#23272e", bg = "#d7dae0" }
+footer = { fg = "#16191d", bg = "#d7dae0" }
 
 # File-specific styles
 [filetype]
