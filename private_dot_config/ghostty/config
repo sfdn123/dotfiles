@@ -1,4 +1,4 @@
-# theme: OneDark-Pro Night Flat
+# theme: One Dark Pro Darker
 palette = 0=#3f4451
 palette = 1=#e05561
 palette = 2=#8cc265
@@ -15,11 +15,11 @@ palette = 12=#4dc4ff
 palette = 13=#de73ff
 palette = 14=#4cd1e0
 palette = 15=#e6e6e6
-background = #16191d
+background = #23272e
 foreground = #abb2bf
-cursor-color = #528bff
-cursor-text = #16191d
-selection-background = #2c313c
+cursor-color = #e05561
+cursor-text = #23272e
+selection-background = #323844
 selection-foreground = #abb2bf
 
 # cursor

@@ -12,7 +12,7 @@ $direnv\
 $python\
 $aws\
 ${custom.gcloud}\
-[](fg:#1e2227)\
+[](fg:#2c313a)\
 $fill\
 $cmd_duration\
 
@@ -29,8 +29,8 @@ $character\
 # left module
 # ----------------------------------------------------
 [python]
-format = "[│](bg:#1e2227 fg:#2c313c)[ $virtualenv ](bg:#1e2227 fg:#d18f52)"
-style = "bg:#1e2227 fg:#d18f52"
+format = "[│](bg:#2c313a fg:#3f4451)[ $virtualenv ](bg:#2c313a fg:#d18f52)"
+style = "bg:#2c313a fg:#d18f52"
 
 [fill]
 symbol = ' '
@@ -41,23 +41,23 @@ truncation_symbol = ' '
 truncate_to_repo = false
 home_symbol = '~'
 read_only = ' 󰌾'
-format = "[  $path$read_only ](bg:#1e2227 fg:#c162de)"
-style = "bg:#1e2227 fg:#c162de"
-read_only_style = "bg:#1e2227 fg:#c162de"
+format = "[  $path$read_only ](bg:#2c313a fg:#c162de)"
+style = "bg:#2c313a fg:#c162de"
+read_only_style = "bg:#2c313a fg:#c162de"
 
 [direnv]
 disabled = false
-format = "[│](bg:#1e2227 fg:#2c313c)[ $symbol$allowed ](bg:#1e2227 fg:#8cc265)"
-style = "bg:#1e2227 fg:#8cc265"
+format = "[│](bg:#2c313a fg:#3f4451)[ $symbol$allowed ](bg:#2c313a fg:#8cc265)"
+style = "bg:#2c313a fg:#8cc265"
 
 [git_branch]
 symbol = ""
-format = "[│](bg:#1e2227 fg:#2c313c)[  $branch ](bg:#1e2227 fg:#42b3c2)"
-style = "bg:#1e2227 fg:#42b3c2"
+format = "[│](bg:#2c313a fg:#3f4451)[  $branch ](bg:#2c313a fg:#42b3c2)"
+style = "bg:#2c313a fg:#42b3c2"
 
 [git_status]
-format = "[$all_status$ahead_behind ](bg:#1e2227 fg:#42b3c2)"
-style = "bg:#1e2227 fg:#42b3c2"
+format = "[$all_status$ahead_behind ](bg:#2c313a fg:#42b3c2)"
+style = "bg:#2c313a fg:#42b3c2"
 
 # ----------------------------------------------------
 # right module
@@ -70,13 +70,13 @@ format = "[ $duration ](fg:#d18f52)"
 [time]
 disabled = false
 time_format = "%R"
-format = '[[  $time](fg:#2c313c)]($style)'
+format = '[[  $time](fg:#3f4451)]($style)'
 
 [custom.hostname]
 when = "true"
 command = "scutil --get LocalHostName 2>/dev/null || scutil --get ComputerName 2>/dev/null || hostnamectl --static 2>/dev/null || hostname -s 2>/dev/null || hostname"
-format = "[ 󰌢 $output ](bg:#2c313c fg:#abb2bf)[](fg:#2c313c bg:#1e2227)"
-style = "bg:#2c313c fg:#abb2bf"
+format = "[ 󰌢 $output ](bg:#3f4451 fg:#abb2bf)[](fg:#3f4451 bg:#2c313a)"
+style = "bg:#3f4451 fg:#abb2bf"
 
 # ----------------------------------------------------
 # prompt module
@@ -88,9 +88,9 @@ vimcmd_symbol = '[V](bold #8cc265) '
 # AWS module
 # ----------------------------------------------------
 [aws]
-format = "[│](bg:#1e2227 fg:#2c313c)[ $symbol $profile ](bg:#1e2227 fg:#d18f52)"
+format = "[│](bg:#2c313a fg:#3f4451)[ $symbol $profile ](bg:#2c313a fg:#d18f52)"
 symbol = "💭"
-style = "bg:#1e2227 fg:#d18f52"
+style = "bg:#2c313a fg:#d18f52"
 
 # ----------------------------------------------------
 # GCP module
@@ -106,5 +106,5 @@ a=$(perl -ne 'print $1 if /^account\s*=\s*[^@]*@(.+)/' "$f" 2>/dev/null)
 p=$(perl -ne 'print $1 if /^project\s*=\s*(.+)/' "$f" 2>/dev/null)
 [ -n "$a" ] && echo "☁️ ${a}(${p})"
 '''
-format = "[│](bg:#1e2227 fg:#2c313c)[ $output ](bg:#1e2227 fg:#42b3c2)"
-style = "bg:#1e2227 fg:#42b3c2"
+format = "[│](bg:#2c313a fg:#3f4451)[ $output ](bg:#2c313a fg:#42b3c2)"
+style = "bg:#2c313a fg:#42b3c2"

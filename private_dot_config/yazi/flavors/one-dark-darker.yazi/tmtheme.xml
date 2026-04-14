@@ -5,23 +5,23 @@
 	<key>gutterSettings</key>
 	<dict>
 		<key>background</key>
-		<string>#2c313c</string>
+		<string>#2c313a</string>
 		<key>divider</key>
 		<string>#3f4451</string>
 		<key>foreground</key>
 		<string>#3f4451</string>
 	</dict>
 	<key>name</key>
-	<string>OneDark-Pro Night Flat</string>
+	<string>One Dark Darker</string>
 	<key>semanticClass</key>
-	<string>theme.dark.one-dark-pro-night-flat</string>
+	<string>theme.dark.one-dark-darker</string>
 	<key>settings</key>
 	<array>
 		<dict>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#16191d</string>
+				<string>#23272e</string>
 				<key>caret</key>
 				<string>#abb2bf</string>
 				<key>foreground</key>
@@ -29,7 +29,7 @@
 				<key>invisibles</key>
 				<string>#3f4451</string>
 				<key>lineHighlight</key>
-				<string>#2c313c</string>
+				<string>#2c313a</string>
 				<key>selection</key>
 				<string>#3e4451</string>
 			</dict>
