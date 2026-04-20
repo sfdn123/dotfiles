@@ -23,8 +23,10 @@ cnoremap <C-e> <End>
 
 nnoremap <leader>d "_d
 nnoremap <leader>c "_c
-" Ddで行削除（レジスタを汚さない）
-nnoremap Dd "_dd
+" ddで行削除（レジスタを汚さない）
+nnoremap dd "_dd
+" dyで行削除+ヤンク（通常のdd動作）
+nnoremap dy dd
 
 " Yで現在のカーソルから行末までヤンク
 nnoremap Y y$
